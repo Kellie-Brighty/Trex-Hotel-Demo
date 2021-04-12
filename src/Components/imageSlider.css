@@ -1,0 +1,16 @@
+.btnCarousel{
+    padding: 8px 40px;
+    padding-top: 11px;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    border-bottom: 4px solid #fff;
+    color: white;
+    transition: .6s;
+}
+.btnCarousel:hover{
+    border-bottom: 4px solid #FF9233;
+    color: #FF9233;
+}
