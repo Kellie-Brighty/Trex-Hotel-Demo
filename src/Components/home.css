@@ -1,0 +1,61 @@
+.btnAbout{
+    padding: 8px 40px;
+    padding-top: 11px;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    border-bottom: 4px solid #fff;
+    color: black;
+    transition: .6s;
+}
+.btnAbout:hover{
+    border-bottom: 4px solid #FF9233;
+    color: #FF9233;
+}
+.divBox{
+    text-align: center;
+    width: 300px;
+    margin: 0px 30px;
+    cursor: pointer;
+    padding: 10px;
+    transition: .5s;
+    border-radius: 10px;
+}
+.icon{
+    font-size: 40px;
+    color: #FF9233;
+}
+.divBox:hover{
+    background-color: #FF9233;
+}
+.divBox:hover .icon{
+    color: #FFF;
+}
+.galleryOverlayBox{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.493);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    overflow-y: hidden;
+}
+.galleryWholeText{
+    color: white;
+    margin-top: 400px;
+    transition: 1s;
+}
+.galleryTextTwo{
+    visibility: hidden;
+}
+.galleryOverlayBox:hover .galleryWholeText{
+    margin-top: 70px;
+}
+.galleryOverlayBox:hover .galleryTextTwo{
+    visibility: visible;
+}
+.galleryWholeText span{
+    color: #FF9233
+}
